@@ -6,3 +6,4 @@ const fibonacci = (number) => {
 console.log(fibonacci(10));
 console.log(fibonacci(20));
 console.log(fibonacci(5));
+console.log(fibonacci(40));
