@@ -1,8 +1,8 @@
 function sum(numbers) {
   if (numbers.length === 0) return 0;
 
-  const popped = numbers.shift();
-  return popped + sum(numbers);
+  const shifted = numbers.shift();
+  return shifted + sum(numbers);
 }
 
 console.log(sum([1, 2, 3, 4, 5])); // 15
